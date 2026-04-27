@@ -1216,8 +1216,8 @@ strong { font-weight: 600; color: var(--text); }
 
   .hero__right {
     order: 1;
-    height: 65vw;
-    max-height: 500px;
+    height: 85vw;
+    max-height: 620px;
   }
 
   .hero__photo-badge { bottom: 1rem; left: 1rem; }
@@ -1239,6 +1239,12 @@ strong { font-weight: 600; color: var(--text); }
   .nav__links { display: none; }
   .nav__burger { display: flex; }
   .nav__logo-text { display: none; }
+  .nav__inner { position: relative; }
+  .nav__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 /* ════════════════════════════════════════════
